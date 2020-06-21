@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Bellota+Text&family=Combo&family=Roboto&family=Sriracha&display=swap');
+
+body{
+font-family: 'Alice', serif;
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+	width:900px; 
+
+}
+.slider{
+    border-style:outset;
+    border-color:black;
+    box-shadow: 5px 7px 5px black;
+    border-width:2px;
+    
+}
+
+.story{
+    background-color:black;
+    color:white;
+    border-style:inset;
+    border-color: greenyellow;
+    margin:30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.carousel-item{
+    width: 725px;
+}
+img{
+
+   width: 100%;
+    
+    object-fit: cover;
+}
+
+.gonext{
+    margin-top: 30px;
+    margin-left: 330px;
+    
+}
+.go{
+    border-style:inset;
+    border-color: greenyellow;
+    background-color:black;
+    border-radius: 20px;
+    font-size: 30px;
+    text-decoration: none;  
+    color:white;
+    font-variant: small-caps; 
+    width: 250px;
+}
+.go:hover{
+    background-color:#6a6c6e;
+    color:black
+}
+
+.link{
+    color:white;
+}
+
+.h{
+    
+    display:inline;
+    font-size:75px;
+}
+.typed-cursor{
+    font-size:75px;
+}
